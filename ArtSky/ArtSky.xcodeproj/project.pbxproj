@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D1CEF71CFD8E15009428CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D1CEF61CFD8E15009428CD /* main.m */; };
+		F7D1CEFA1CFD8E15009428CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D1CEF91CFD8E15009428CD /* AppDelegate.m */; };
+		F7D1CF021CFD8E15009428CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D1CF011CFD8E15009428CD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7D1CEF21CFD8E15009428CD /* ArtSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D1CEF61CFD8E15009428CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7D1CEF81CFD8E15009428CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7D1CEF91CFD8E15009428CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7D1CF011CFD8E15009428CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D1CF061CFD8E15009428CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D1CEEF1CFD8E15009428CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D1CEE91CFD8E15009428CD = {
+			isa = PBXGroup;
+			children = (
+				F7D1CEF41CFD8E15009428CD /* ArtSky */,
+				F7D1CEF31CFD8E15009428CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D1CEF31CFD8E15009428CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D1CEF21CFD8E15009428CD /* ArtSky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D1CEF41CFD8E15009428CD /* ArtSky */ = {
+			isa = PBXGroup;
+			children = (
+				F7D1CF2C1CFD8ECC009428CD /* Utils */,
+				F7D1CF291CFD8ECC009428CD /* Classes */,
+				F7D1CF2A1CFD8ECC009428CD /* Resources */,
+				F7D1CF281CFD8EAC009428CD /* Applicaionts */,
+				F7D1CEF51CFD8E15009428CD /* Supporting Files */,
+			);
+			path = ArtSky;
+			sourceTree = "<group>";
+		};
+		F7D1CEF51CFD8E15009428CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D1CF011CFD8E15009428CD /* Assets.xcassets */,
+				F7D1CF061CFD8E15009428CD /* Info.plist */,
+				F7D1CEF61CFD8E15009428CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7D1CF281CFD8EAC009428CD /* Applicaionts */ = {
+			isa = PBXGroup;
+			children = (
+				F7D1CEF81CFD8E15009428CD /* AppDelegate.h */,
+				F7D1CEF91CFD8E15009428CD /* AppDelegate.m */,
+			);
+			name = Applicaionts;
+			sourceTree = "<group>";
+		};
+		F7D1CF291CFD8ECC009428CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7D1CF2D1CFD97EF009428CD /* Exhibition */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F7D1CF2A1CFD8ECC009428CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7D1CF2B1CFD8ECC009428CD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7D1CF2B1CFD8ECC009428CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F7D1CF2C1CFD8ECC009428CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F7D1CF2D1CFD97EF009428CD /* Exhibition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exhibition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D1CEF11CFD8E15009428CD /* ArtSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D1CF1F1CFD8E16009428CD /* Build configuration list for PBXNativeTarget "ArtSky" */;
+			buildPhases = (
+				F7D1CEEE1CFD8E15009428CD /* Sources */,
+				F7D1CEEF1CFD8E15009428CD /* Frameworks */,
+				F7D1CEF01CFD8E15009428CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtSky;
+			productName = ArtSky;
+			productReference = F7D1CEF21CFD8E15009428CD /* ArtSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D1CEEA1CFD8E15009428CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JXH;
+				TargetAttributes = {
+					F7D1CEF11CFD8E15009428CD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F7D1CEED1CFD8E15009428CD /* Build configuration list for PBXProject "ArtSky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D1CEE91CFD8E15009428CD;
+			productRefGroup = F7D1CEF31CFD8E15009428CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D1CEF11CFD8E15009428CD /* ArtSky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D1CEF01CFD8E15009428CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D1CF021CFD8E15009428CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D1CEEE1CFD8E15009428CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D1CEFA1CFD8E15009428CD /* AppDelegate.m in Sources */,
+				F7D1CEF71CFD8E15009428CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7D1CF1D1CFD8E16009428CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D1CF1E1CFD8E16009428CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D1CF201CFD8E16009428CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArtSky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsky.ArtSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7D1CF211CFD8E16009428CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArtSky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsky.ArtSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D1CEED1CFD8E15009428CD /* Build configuration list for PBXProject "ArtSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D1CF1D1CFD8E16009428CD /* Debug */,
+				F7D1CF1E1CFD8E16009428CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D1CF1F1CFD8E16009428CD /* Build configuration list for PBXNativeTarget "ArtSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D1CF201CFD8E16009428CD /* Debug */,
+				F7D1CF211CFD8E16009428CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D1CEEA1CFD8E15009428CD /* Project object */;
+}
