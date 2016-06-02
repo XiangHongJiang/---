@@ -235,6 +235,18 @@
 		F75E423F1CFFC7C100C4EEED /* Tabbar4_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F75E415D1CFFC7C100C4EEED /* Tabbar4_sel@2x.png */; };
 		F75E42471CFFC82400C4EEED /* notify.wav in Resources */ = {isa = PBXBuildFile; fileRef = F75E42411CFFC82400C4EEED /* notify.wav */; };
 		F75E42481CFFC82400C4EEED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F75E42431CFFC82400C4EEED /* Localizable.strings */; };
+		F75E424E1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E424D1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.m */; };
+		F75E42631D000BEB00C4EEED /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E425C1D000BEB00C4EEED /* NSString+Custom.m */; };
+		F75E42641D000BEB00C4EEED /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E425E1D000BEB00C4EEED /* UIAlertView+Block.m */; };
+		F75E42651D000BEB00C4EEED /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E42601D000BEB00C4EEED /* UIDevice+Hardware.m */; };
+		F75E42661D000BEB00C4EEED /* UIFont+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E42621D000BEB00C4EEED /* UIFont+Custom.m */; };
+		F75E426C1D000BF600C4EEED /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E42691D000BF600C4EEED /* UIView+Category.m */; };
+		F75E426D1D000BF600C4EEED /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E426B1D000BF600C4EEED /* UIView+ViewController.m */; };
+		F75E42741D000C8300C4EEED /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E426F1D000C8300C4EEED /* UIColor+expanded.m */; };
+		F75E42751D000C8300C4EEED /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E42711D000C8300C4EEED /* UIImage+Extension.m */; };
+		F75E42761D000C8300C4EEED /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E42731D000C8300C4EEED /* UIView+Extension.m */; };
+		F75E427C1D00187100C4EEED /* XHArtSky_RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E427B1D00187100C4EEED /* XHArtSky_RootViewController.m */; };
+		F75E427F1D001AD700C4EEED /* XHArtSky_BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E427E1D001AD700C4EEED /* XHArtSky_BaseModel.m */; };
 		F7D1CEF71CFD8E15009428CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D1CEF61CFD8E15009428CD /* main.m */; };
 		F7D1CEFA1CFD8E15009428CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D1CEF91CFD8E15009428CD /* AppDelegate.m */; };
 		F7D1CF021CFD8E15009428CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D1CF011CFD8E15009428CD /* Assets.xcassets */; };
@@ -479,6 +491,32 @@
 		F75E42441CFFC82400C4EEED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F75E42451CFFC82400C4EEED /* TextConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextConstants.h; sourceTree = "<group>"; };
 		F75E42461CFFC82400C4EEED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F75E424C1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHArtSky_ExhibitionDetailViewController.h; sourceTree = "<group>"; };
+		F75E424D1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHArtSky_ExhibitionDetailViewController.m; sourceTree = "<group>"; };
+		F75E424F1D000B5D00C4EEED /* PreConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreConfig.h; sourceTree = "<group>"; };
+		F75E42531D000B7A00C4EEED /* ArtSky-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtSky-Prefix.pch"; sourceTree = "<group>"; };
+		F75E425B1D000BEB00C4EEED /* NSString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		F75E425C1D000BEB00C4EEED /* NSString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		F75E425D1D000BEB00C4EEED /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		F75E425E1D000BEB00C4EEED /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		F75E425F1D000BEB00C4EEED /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		F75E42601D000BEB00C4EEED /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		F75E42611D000BEB00C4EEED /* UIFont+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Custom.h"; sourceTree = "<group>"; };
+		F75E42621D000BEB00C4EEED /* UIFont+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Custom.m"; sourceTree = "<group>"; };
+		F75E42681D000BF600C4EEED /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		F75E42691D000BF600C4EEED /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		F75E426A1D000BF600C4EEED /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		F75E426B1D000BF600C4EEED /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		F75E426E1D000C8300C4EEED /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		F75E426F1D000C8300C4EEED /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		F75E42701D000C8300C4EEED /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		F75E42711D000C8300C4EEED /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		F75E42721D000C8300C4EEED /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F75E42731D000C8300C4EEED /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F75E427A1D00187100C4EEED /* XHArtSky_RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHArtSky_RootViewController.h; sourceTree = "<group>"; };
+		F75E427B1D00187100C4EEED /* XHArtSky_RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHArtSky_RootViewController.m; sourceTree = "<group>"; };
+		F75E427D1D001AD700C4EEED /* XHArtSky_BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHArtSky_BaseModel.h; sourceTree = "<group>"; };
+		F75E427E1D001AD700C4EEED /* XHArtSky_BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHArtSky_BaseModel.m; sourceTree = "<group>"; };
 		F7D1CEF21CFD8E15009428CD /* ArtSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D1CEF61CFD8E15009428CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7D1CEF81CFD8E15009428CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -891,6 +929,30 @@
 			path = Localizations;
 			sourceTree = "<group>";
 		};
+		F75E425A1D000BBD00C4EEED /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F75E42671D000BF600C4EEED /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F75E426E1D000C8300C4EEED /* UIColor+expanded.h */,
+				F75E426F1D000C8300C4EEED /* UIColor+expanded.m */,
+				F75E42701D000C8300C4EEED /* UIImage+Extension.h */,
+				F75E42711D000C8300C4EEED /* UIImage+Extension.m */,
+				F75E42721D000C8300C4EEED /* UIView+Extension.h */,
+				F75E42731D000C8300C4EEED /* UIView+Extension.m */,
+				F75E42681D000BF600C4EEED /* UIView+Category.h */,
+				F75E42691D000BF600C4EEED /* UIView+Category.m */,
+				F75E426A1D000BF600C4EEED /* UIView+ViewController.h */,
+				F75E426B1D000BF600C4EEED /* UIView+ViewController.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		F7D1CEE91CFD8E15009428CD = {
 			isa = PBXGroup;
 			children = (
@@ -964,6 +1026,7 @@
 		F7D1CF2C1CFD8ECC009428CD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F75E425A1D000BBD00C4EEED /* Others */,
 				F7DB6C4E1CFEBF3000A8702D /* Frameworks */,
 				F7DB6C4F1CFEBF3000A8702D /* NetWorking */,
 				F7DB6AE91CFEBCFD00A8702D /* Categorys */,
@@ -1021,6 +1084,8 @@
 			children = (
 				F7DB6C5E1CFECA4500A8702D /* XHArtSky_ExhibitionMainViewController.h */,
 				F7DB6C5F1CFECA4500A8702D /* XHArtSky_ExhibitionMainViewController.m */,
+				F75E424C1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.h */,
+				F75E424D1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1108,6 +1173,15 @@
 		F7DB6AE91CFEBCFD00A8702D /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				F75E42671D000BF600C4EEED /* UIView */,
+				F75E425B1D000BEB00C4EEED /* NSString+Custom.h */,
+				F75E425C1D000BEB00C4EEED /* NSString+Custom.m */,
+				F75E425D1D000BEB00C4EEED /* UIAlertView+Block.h */,
+				F75E425E1D000BEB00C4EEED /* UIAlertView+Block.m */,
+				F75E425F1D000BEB00C4EEED /* UIDevice+Hardware.h */,
+				F75E42601D000BEB00C4EEED /* UIDevice+Hardware.m */,
+				F75E42611D000BEB00C4EEED /* UIFont+Custom.h */,
+				F75E42621D000BEB00C4EEED /* UIFont+Custom.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -1115,6 +1189,8 @@
 		F7DB6AEA1CFEBCFD00A8702D /* Prefix */ = {
 			isa = PBXGroup;
 			children = (
+				F75E42531D000B7A00C4EEED /* ArtSky-Prefix.pch */,
+				F75E424F1D000B5D00C4EEED /* PreConfig.h */,
 			);
 			path = Prefix;
 			sourceTree = "<group>";
@@ -1527,6 +1603,8 @@
 				F7DB6C591CFEC39B00A8702D /* XHArtSky_RootTabBarController.m */,
 				F7DB6C5B1CFEC3B600A8702D /* XHArtSky_RootNavigationController.h */,
 				F7DB6C5C1CFEC3B600A8702D /* XHArtSky_RootNavigationController.m */,
+				F75E427A1D00187100C4EEED /* XHArtSky_RootViewController.h */,
+				F75E427B1D00187100C4EEED /* XHArtSky_RootViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1534,6 +1612,8 @@
 		F7DB6C521CFEBF7900A8702D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F75E427D1D001AD700C4EEED /* XHArtSky_BaseModel.h */,
+				F75E427E1D001AD700C4EEED /* XHArtSky_BaseModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1844,14 +1924,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75E427C1D00187100C4EEED /* XHArtSky_RootViewController.m in Sources */,
+				F75E426C1D000BF600C4EEED /* UIView+Category.m in Sources */,
+				F75E42651D000BEB00C4EEED /* UIDevice+Hardware.m in Sources */,
 				F7DB6C691CFECA7A00A8702D /* XHArtSky_ShopMainViewController.m in Sources */,
+				F75E42761D000C8300C4EEED /* UIView+Extension.m in Sources */,
 				F7DB6C5D1CFEC3B600A8702D /* XHArtSky_RootNavigationController.m in Sources */,
 				F7D1CEFA1CFD8E15009428CD /* AppDelegate.m in Sources */,
 				F7DB6C661CFECA7000A8702D /* XHArtSky_FoundMainViewController.m in Sources */,
+				F75E42661D000BEB00C4EEED /* UIFont+Custom.m in Sources */,
+				F75E42741D000C8300C4EEED /* UIColor+expanded.m in Sources */,
+				F75E42631D000BEB00C4EEED /* NSString+Custom.m in Sources */,
+				F75E427F1D001AD700C4EEED /* XHArtSky_BaseModel.m in Sources */,
 				F7DB6C601CFECA4500A8702D /* XHArtSky_ExhibitionMainViewController.m in Sources */,
+				F75E42641D000BEB00C4EEED /* UIAlertView+Block.m in Sources */,
 				F7DB6C571CFEC36700A8702D /* XHArtSky_MainViewController.m in Sources */,
 				F7D1CEF71CFD8E15009428CD /* main.m in Sources */,
 				F7DB6C5A1CFEC39B00A8702D /* XHArtSky_RootTabBarController.m in Sources */,
+				F75E42751D000C8300C4EEED /* UIImage+Extension.m in Sources */,
+				F75E424E1D000A7300C4EEED /* XHArtSky_ExhibitionDetailViewController.m in Sources */,
+				F75E426D1D000BF600C4EEED /* UIView+ViewController.m in Sources */,
 				F7DB6C6C1CFECAC000A8702D /* XHArtSky_AuctionMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1959,6 +2051,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ArtSky/Utils/Prefix/ArtSky-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = ArtSky/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1973,6 +2066,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ArtSky/Utils/Prefix/ArtSky-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = ArtSky/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

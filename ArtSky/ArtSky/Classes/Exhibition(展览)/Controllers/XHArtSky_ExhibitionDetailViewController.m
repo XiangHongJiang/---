@@ -1,19 +1,18 @@
 //
-//  XHArtSky_ExhibitionMainViewController.m
+//  XHArtSky_ExhibitionDetailViewController.m
 //  ArtSky
 //
-//  Created by JXH on 16/6/1.
+//  Created by JXH on 16/6/2.
 //  Copyright © 2016年 JXH. All rights reserved.
 //
 
-#import "XHArtSky_ExhibitionMainViewController.h"
 #import "XHArtSky_ExhibitionDetailViewController.h"
 
-@interface XHArtSky_ExhibitionMainViewController ()
+@interface XHArtSky_ExhibitionDetailViewController ()
 
 @end
 
-@implementation XHArtSky_ExhibitionMainViewController
+@implementation XHArtSky_ExhibitionDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,8 +26,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
-    [self.navigationController pushViewController:[[XHArtSky_ExhibitionDetailViewController alloc] init] animated:YES];
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

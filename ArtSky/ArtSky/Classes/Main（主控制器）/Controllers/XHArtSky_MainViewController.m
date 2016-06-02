@@ -21,6 +21,7 @@
 
     /** 添加管理的根视图控制器*/
     [self addRootTabBarCtrl];
+    [UIColor whiteColor];//94,216,205
 
 }
 #pragma mark - 添加根视图控制器，所有带导航的子视图受其管理
