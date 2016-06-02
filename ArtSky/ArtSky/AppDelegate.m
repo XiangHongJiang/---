@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XHArtSky_MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +17,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    /** 设置根视图控制器*/
+    [self addRootViewController];
+    
     return YES;
 }
+#pragma mark - setup and config (建立与设置)
+/** 设置根视图控制器*/
+- (void)addRootViewController{
 
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[XHArtSky_MainViewController alloc] init];
+}
+
+#pragma mark - system Method
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

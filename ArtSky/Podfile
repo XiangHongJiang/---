@@ -1,0 +1,3 @@
+platfor: ios,'9.3'
+pod 'AFNetworking'
+pod 'SDWebimage'

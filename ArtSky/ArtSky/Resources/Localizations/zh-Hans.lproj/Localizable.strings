@@ -1,0 +1,292 @@
+/* 
+  Localizable.strings
+  ArtSky
+
+  Created by Adam on 15-10-26.
+*/
+
+CFBundleDisplayName = "空艺术";
+
+// Common
+detailTitle = "详情";
+more = "更多";
+submit = "提交";
+done = "完成";
+deletePromptTitle = "确认删除?";
+delete = "删除";
+search = "搜索";
+searchHistory = "搜索历史";
+searchKey = "请输入搜索关键词";
+operationSuccess = "操作成功";
+operationFailure = "操作失败";
+returnDataIsEmpty = "返回内容为空";
+
+clear = "清空搜索历史";
+takePhotoTitle = "拍照";
+choosePhotosTitle = "从手机相册选择";
+cancelTitle = "取消";
+confirmTitle = "确定";
+saveTitle = "保存";
+allTitle = "全部";
+currentVersion = "当前版本";
+noNickname = "暂无昵称";
+selectCity = "选择城市";
+
+goingTitle = "进行中";
+comingTitle = "即将开始";
+endTitle = "已结束";
+
+// Refresh
+refreshHeaderIdleText = "下拉可以刷新";
+refreshHeaderPullingText = "松开立即刷新";
+refreshHeaderRefreshingText = "正在刷新数据中...";
+
+refreshAutoFooterIdleText = "点击或上拉加载更多";
+refreshAutoFooterRefreshingText = "正在加载更多的数据...";
+refreshAutoFooterNoMoreDataText = "已经全部加载完毕";
+
+refreshBackFooterIdleText = "上拉可以加载更多";
+refreshBackFooterPullingText = "松开立即加载更多";
+refreshBackFooterRefreshingText = "正在加载更多的数据...";
+refreshBackFooterNoMoreDataText = "已经全部加载完毕";
+
+refreshTodayText = "今天";
+refreshLatestUpdateText = "最后更新";
+refreshLatestUpdateNoDataText = "最后更新：无记录";
+
+// Login
+mobileTitle = "手机号码";
+loginPswdTitle = "登录密码";
+registTitle = "注册新用户";
+forgetTitle = "忘记密码";
+loginTitle = "登录";
+logOutTitle = "退出当前账号";
+logOutNameTitle = "退出登录";
+logOutPromptTitle = "您确定要退出系统吗？";
+
+// Regist
+getCodeNumTitle = "获取验证码";
+getCodePromptTitle = "秒后再次发送";
+
+// Tab
+exhibitionTabName = "展览";
+auctionTabName = "拍卖";
+foundTabName = "发现";
+meTabName = "我";
+
+// 展览
+exhibitionGoingTitle = "进行中";
+exhibitionComingTitle = "即将开幕";
+exhibitionEndTitle = "已结束";
+
+// 购票
+buyTicketTitle = "购票";
+ticketAddressTitle = "地址";
+ticketTimeTitle = "时间";
+ticketTypeTitle = "种类";
+ticketNumberTitle = "数量";
+ticketPriceTitle = "价格";
+payChannelPrefixTitle = "使用";
+payChannelSuffixTitle = "付款";
+
+// 拍卖订单
+orderAuctionTypeTitle = "拍卖类型";
+onlineAuctionTypeTitle = "线上拍卖";
+offlineAuctionTypeTitle = "线下拍卖";
+orderAuctionTimeTitle = "下单时间";
+
+mobileNoteTitle = "(接收订单信息)";
+exhibitionBuyTicketsTitle = "去买票";
+noSupportTicketTitle = "不支持售票";
+exhibitionSubscribeTitle = "去订阅";
+
+// 语音导览
+audioGuideTitle = "导 览";
+exhibitionVoiceTitle = "Language Switch";
+exhibitionVoiceListTitle = "展品列表";
+ibeaconTitle = "智能导览";
+noMusicSourceTitle = ">_<该作品暂无语音";
+
+// iBeacon
+discoverNewExhibits = "发现";
+exhibitNearby = "请走到展品附近";
+invalidSignal = "无效的信号";
+
+// 评论
+commentsTitle = "热门评论";
+commentTitle = "评论";
+noCommentTitle = "暂无评论";
+commentInputPlaceholderTitle = "在这里说点什么吧";
+
+// 拍卖
+auctionNormalTitle = "普通模式";
+auctionCatalogueTitle = "图录模式";
+auctionAgencyTitle = "拍卖机构";
+
+auctionSession = "专场数";
+auctionSessionUnit = "场";
+totalPrice = "总成交额";
+
+fullTextTitle = "全文";
+collapseTitle = "折叠";
+
+lotDetailTitle = "详情";
+lotAuctionTitle = "拍卖";
+lotNoticeTitle = "须知";
+
+lotAuctionNoteTitle = "无保留价，有延时";
+
+lotAgency = "拍卖机构";
+lotService = "联系客服";
+lotPresentPrice = "当前出价";
+lotWatch = "围观";
+lotInitialBiddingPrice = "起拍价";
+lotBond = "保证金";
+lotIncreaseRange = "加价幅度";
+lotAuctionTime = "距离结束";
+lotDayTitle = "天";
+lotBidList = "出价记录";
+lotWantToBid = "我要出价";
+lotBid = "出价";
+offLineLotBid = "竞拍";
+lotCompleted = "成交";
+lotUnsold = "竞拍";
+dontLessCurrentPrice = "不能小于当前价格";
+bidHistory = "出价记录";
+unsoldTitle = "流拍";
+payLotDeposit = "缴纳保证金";
+lotUnitDeposit = "单品保证金";
+allLotDeposit = "全场保证金";
+
+previousTitle = "上一件";
+lotTitle = "拍品";
+nextTitle = "下一件";
+
+// 我
+profileFavoriteTitle = "我的收藏";
+profileTicketTitle = "我的票务";
+profileScheduleTitle = "我的行程";
+profileSubscriptionTitle = "我的订阅";
+profileAccount = "我的账户";
+profileInterestedTitle = "感兴趣的模块";
+profileGuideTitle = "引导页面";
+profileImageCacheTitle = "清空缓存";
+
+// 地址
+addressListTitle = "地址列表";
+
+// 行程
+addSchduleTitle = "添加行程";
+modifySchduleTitle = "修改行程";
+addSchduleRemarksTitle = "请添加备注";
+
+// 订阅
+subscriptionExhibitionTabName = "展览机构";
+subscriptionAuctionAgencyTabName = "拍卖机构";
+subscriptionSourceTabName = "发现来源";
+
+subscribeTitle = "订阅";
+unsubscribeTitle = "取消订阅";
+
+// 个人设置
+settingTitle = "个人设置";
+settingSwitchLanguageTitle = "切换语言";
+settingPhotoTitle = "修改头像";
+settingChangePasswordTitle = "修改密码";
+settingFeedbackTitle = "意见反馈";
+settingUserNameTitle = "修改用户名";
+settingFeedbackPromptTitle = "请输入意见反馈";
+
+// Interested
+interestedTitle = "感兴趣的模块";
+enterArtSkyTitle = "进入ArtSky";
+
+// Feedback
+feedbackContent = "请在这里填写建议，Artsky重视每一个反馈的声音，我们将不断改进，感谢支持！";
+feedbackEmail = "请留下您的邮箱，以方便我们回复你(选填)";
+
+// 重置密码
+oldPswdTitle = "旧的密码";
+pswdTitle = "输入密码";
+confimPswdTitle = "确认密码";
+
+// 我的账户
+accountNameTitle = "账户";
+balanceTitle = "余额";
+balanceNotEnoughTitle = "余额不足";
+accountWalletTitle = "我的钱包";
+accountOrderTitle = "我的订单";
+accountAddressTitle = "地址管理";
+accountServiceTitle = "联系客服";
+walletAmountTitle = "钱包余额";
+walletPayTitle = "钱包支付";
+
+// 我的钱包
+transactionsTitle = "账户明细";
+topUpTitle = "充值";
+withdrawTitle = "提现明细";
+withdrawAccountTitle = "提现账户";
+selWithdrawAccountTitle = "选择提现账户";
+
+addWithdrawAccountDateTitle = "添加日期";
+checkWithdrawAccountTitle = "请验证账户";
+checkWithdrawAccountDoneTitle = "验证完成";
+addWithdrawAccountTitle = "添加账户";
+editWithdrawAccountTitle = "编辑账户";
+withdrawTypeTitle = "提现类型";
+withdrawAccountNameTitle = "账户名称";
+withdrawNameTitle = "真实姓名";
+withdrawNamePlaceholderTitle = "请输入真实姓名";
+
+balanceTotalTitle = "余额";
+balanceAvailableTitle = "可用余额";
+balanceFrozenTitle = "冻结余额";
+
+withdrawIngTitle = "提现中";
+withdrawDoneTitle = "已提现";
+withdrawAvailableTitle = "可提现";
+requestWithdrawTitle = "申请提现";
+withdrawRequestTimeTitle = "申请时间";
+withdrawDoneTimeTitle = "处理时间";
+
+amountTitle = "充值金额";
+amountPlaceholderTitle = "请输入金额";
+channelTitle = "支付方式";
+channelWechatPayTitle = "微信";
+channelAlipayTitle = "支付宝";
+prePayFeeTitle ="该操作需要支付";
+payFeeTitle = "手续费";
+confirmPayTitle = "确认支付";
+
+// 申请提现
+withdrawAmountTitle = "提现金额";
+withdrawAmountPlaceholderTitle = "请输入金额";
+confirmWithdrawTitle = "提现";
+
+// 我的订单
+orderUserMobileTitle = "手机";
+orderUserNameTitle = "收货人";
+orderNameTitle = "名称";
+orderTicketTitle = "票务";
+orderAuctionTitle = "拍卖";
+orderDerivativeTitle = "衍生品";
+
+orderCancelPayPromptTitle = "您确认要放弃?";
+orderCancelPayTitle = "放弃";
+orderPayTitle = "付款";
+
+orderTitle = "订单";
+orderStateNormalTitle = "有效订单";
+orderStateInvalidTitle = "无效订单";
+orderStatePayDoneTitle = "已支付";
+orderStateBackingTitle = "退款中";
+orderStateBackDoneTitle = "已退款";
+orderStateExpireTitle = "已过期";
+orderStateCancelTitle = "已取消";
+
+payTimeLimitTitle = "请在15分钟内完成支付";
+depositTitle = "保证金";
+
+startTimeTitle = "开始时间";
+endTimeTitle = "结束时间";
+

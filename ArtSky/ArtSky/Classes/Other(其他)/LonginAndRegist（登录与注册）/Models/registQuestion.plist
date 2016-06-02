@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>msg</key>
+	<string>msg</string>
+	<key>code</key>
+	<string>0</string>
+	<key>result</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>您认为空艺术是一个什么类型的平台？</string>
+			<key>answer</key>
+			<array>
+				<string>传统媒体</string>
+				<string>新闻客户端</string>
+				<string>新媒体垂直平台</string>
+				<string>不太了解</string>
+			</array>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>您最感兴趣的艺术门类是什么？</string>
+			<key>answer</key>
+			<array>
+				<string>传统艺术</string>
+				<string>新媒体艺术</string>
+				<string>其他门类</string>
+				<string>不感兴趣</string>
+			</array>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>您比较感兴趣的拍品类型是？</string>
+			<key>answer</key>
+			<array>
+				<string>传统作品</string>
+				<string>当代作品</string>
+				<string>其他作品</string>
+				<string>不感兴趣</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

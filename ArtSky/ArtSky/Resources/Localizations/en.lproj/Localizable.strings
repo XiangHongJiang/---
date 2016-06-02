@@ -1,0 +1,292 @@
+/* 
+  Localizable.strings
+  ArtSky
+
+  Created by Adam on 15-10-26.
+*/
+
+CFBundleDisplayName = "ArtSky";
+
+// Common
+detailTitle = "Detail";
+more = "More";
+submit = "Submit";
+done = "Done";
+deletePromptTitle = "Confirm Delete?";
+delete = "Delete";
+search = "Search";
+searchHistory = "Search History";
+searchKey = "Search Key";
+operationSuccess = "operation is successful";
+operationFailure = "operation is failure";
+returnDataIsEmpty = "Data is empty";
+
+clear = "Clear";
+takePhotoTitle = "Take Photo";
+choosePhotosTitle = "Choose from Photos";
+cancelTitle = "Cancel";
+confirmTitle = "Confirm";
+saveTitle = "Save";
+allTitle = "All";
+currentVersion = "Version";
+noNickname = "no nickname";
+selectCity = "Select City";
+
+goingTitle = "Going";
+comingTitle = "Coming";
+endTitle = "End";
+
+// Refresh
+refreshHeaderIdleText = "Pull down to refresh";
+refreshHeaderPullingText = "Release the Refresh Now";
+refreshHeaderRefreshingText = "Refreshing data ...";
+
+refreshAutoFooterIdleText = "Click or pull up more";
+refreshAutoFooterRefreshingText = "Loading more data ...";
+refreshAutoFooterNoMoreDataText = "Have all been loaded";
+
+refreshBackFooterIdleText = "Click or pull up more";
+refreshBackFooterPullingText = "Release more immediately";
+refreshBackFooterRefreshingText = "Loading more data ...";
+refreshBackFooterNoMoreDataText = "Have all been loaded";
+
+refreshTodayText = "";
+refreshLatestUpdateText = "Latest Update";
+refreshLatestUpdateNoDataText = "Latest Update No Data";
+
+// Login
+mobileTitle = "Mobile";
+loginPswdTitle = "Password";
+registTitle = "Regist";
+forgetTitle = "Forget";
+loginTitle = "Login";
+logOutTitle = "Log Out";
+logOutNameTitle = "Log Out";
+logOutPromptTitle = "Are you sure Log out ?";
+
+// Regist
+getCodeNumTitle = "Get Code";
+getCodePromptTitle = "'s send";
+
+// Tab
+exhibitionTabName = "Exhibition";
+auctionTabName = "Auction";
+foundTabName = "Found";
+meTabName = "Me";
+
+// 展览
+exhibitionGoingTitle = "Going";
+exhibitionComingTitle = "Coming";
+exhibitionEndTitle = "End";
+
+// 购票
+buyTicketTitle = "Buy ticket";
+ticketAddressTitle = "Address";
+ticketTimeTitle = "Time";
+ticketTypeTitle = "Type";
+ticketNumberTitle = "Number";
+ticketPriceTitle = "Price";
+payChannelPrefixTitle = "Use";
+payChannelSuffixTitle = "Pay";
+
+// 拍卖订单
+orderAuctionTypeTitle = "Type";
+orderAuctionTimeTitle = "Time";
+onlineAuctionTypeTitle = "Online Auction";
+offlineAuctionTypeTitle = "Offline Auction";
+
+mobileNoteTitle = "(Receive order message)";
+exhibitionBuyTicketsTitle = "Buy Ticket";
+noSupportTicketTitle = "No support Buy Ticket";
+exhibitionSubscribeTitle = "Subscribe";
+
+// 语音导览
+audioGuideTitle = "Guide";
+exhibitionVoiceTitle = "语言切换";
+exhibitionVoiceListTitle = "Exhibits";
+ibeaconTitle = "Guide";
+noMusicSourceTitle = "No music source";
+
+// iBeacon
+discoverNewExhibits = "Discover";
+exhibitNearby = "Please go to the exhibit nearby";
+invalidSignal = "Invalid signal";
+
+// 评论
+commentsTitle = "Comments";
+commentTitle = "Comment";
+noCommentTitle = "No Comment";
+commentInputPlaceholderTitle = "Comment";
+
+// 拍卖
+auctionNormalTitle = "Normal";
+auctionCatalogueTitle = "Catalogue";
+auctionAgencyTitle = "Auction Agency";
+
+auctionSession = "Session";
+auctionSessionUnit = "";
+totalPrice = "Turnover";
+
+//
+fullTextTitle = "Full Text";
+collapseTitle = "Collapse";
+
+lotDetailTitle = "Detail";
+lotAuctionTitle = "Auction";
+lotNoticeTitle = "Notice";
+
+lotAuctionNoteTitle = "No reservation price";
+
+lotAgency = "Agency";
+lotService = "Service";
+lotPresentPrice = "Present";
+lotWatch = "Watch";
+lotInitialBiddingPrice = "Initial Price";
+lotBond = "Bond";
+lotIncreaseRange = "Increase";
+lotAuctionTime = "Only";
+lotDayTitle = "day left";
+lotBidList = "Bid List";
+lotWantToBid = "I want to bid";
+lotBid = "Bid";
+offLineLotBid = "Auction";
+lotCompleted = "Completed";
+lotUnsold = "Unsold";
+dontLessCurrentPrice = "Can not be less than the current price";
+bidHistory = "Bids";
+unsoldTitle = "Unsold";
+payLotDeposit = "Deposit";
+lotUnitDeposit = "Lot Unit";
+allLotDeposit = "All Lot";
+
+previousTitle = "Previous";
+lotTitle = "Lot";
+nextTitle = "Next";
+
+// 我
+profileFavoriteTitle = "Favorite";
+profileTicketTitle = "Ticket";
+profileScheduleTitle = "Schedule";
+profileSubscriptionTitle = "Subscription";
+profileAccount = "Account";
+profileInterestedTitle = "Interested";
+profileGuideTitle = "Guide";
+profileImageCacheTitle = "Clear cache";
+
+// 地址
+addressListTitle = "地址列表";
+
+// 行程
+addSchduleTitle = "Schdule";
+modifySchduleTitle = "Schdule";
+addSchduleRemarksTitle = "Add Remarks";
+
+// 订阅
+subscriptionExhibitionTabName = "Exhibition Agency";
+subscriptionAuctionAgencyTabName = "Auction Agency";
+subscriptionSourceTabName = "Source";
+
+subscribeTitle = "Subscribe";
+unsubscribeTitle = "Unsubscribe";
+
+// 个人设置
+settingTitle = "Setting";
+settingSwitchLanguageTitle = "Language";
+settingPhotoTitle = "Photo";
+settingChangePasswordTitle = "Password";
+settingFeedbackTitle = "Feedback";
+settingUserNameTitle = "Name";
+settingFeedbackPromptTitle = "Please input feedback";
+
+// Interested
+interestedTitle = "Interested";
+enterArtSkyTitle = "Enter ArtSky";
+
+// Feedback
+feedbackContent = "Feedback content";
+feedbackEmail = "Feedback Emai (Optional)";
+
+// 重置密码
+oldPswdTitle = "old Password";
+pswdTitle = "Password";
+confimPswdTitle = "confim Password";
+
+// 我的账户
+accountNameTitle = "Account";
+balanceTitle = "Balance";
+accountWalletTitle = "Wallet";
+balanceNotEnoughTitle = "Balance is not Enough";
+accountOrderTitle = "Order";
+accountAddressTitle = "Address";
+accountServiceTitle = "Service";
+walletAmountTitle = "Wallet Amount";
+walletPayTitle = "Wallet Pay";
+
+// 我的钱包
+transactionsTitle = "Transactions";
+topUpTitle = "Top Up";
+withdrawTitle = "Withdraw";
+withdrawAccountTitle = "Account";
+selWithdrawAccountTitle = "Select Account";
+
+addWithdrawAccountDateTitle = "Add";
+checkWithdrawAccountTitle = "Check Account";
+checkWithdrawAccountDoneTitle = "Check Done";
+addWithdrawAccountTitle = "Add Account";
+editWithdrawAccountTitle = "Edit Account";
+withdrawTypeTitle = "Type";
+withdrawAccountNameTitle = "Account";
+withdrawNameTitle = "Name";
+withdrawNamePlaceholderTitle = "Please input name";
+
+balanceTotalTitle = "Balance";
+balanceAvailableTitle = "Available";
+balanceFrozenTitle = "Frozen";
+
+withdrawIngTitle = "Withdrawing";
+withdrawDoneTitle = "Done";
+withdrawAvailableTitle = "Available";
+RequestWithdrawTitle = "Withdraw";
+withdrawRequestTimeTitle = "Request Time";
+withdrawDoneTimeTitle = "Done Time";
+
+amountTitle = "Amount";
+amountPlaceholderTitle = "Input amount";
+channelTitle = "Channel";
+channelWechatPayTitle = "Wechat";
+channelAlipayTitle = "Alipay";
+prePayFeeTitle = "Need Pay";
+payFeeTitle = "Fee";
+confirmPayTitle = "Top Up";
+
+// 申请提现
+withdrawAmountTitle = "Amount";
+withdrawAmountPlaceholderTitle = "Input amount";
+confirmWithdrawTitle = "Withdraw";
+
+// 我的订单
+orderUserMobileTitle = "Mobile";
+orderUserNameTitle = "Receiver";
+orderNameTitle = "Name";
+orderTicketTitle = "Tickets";
+orderAuctionTitle = "Auctions";
+orderDerivativeTitle = "Derivative";
+
+orderCancelPayPromptTitle = "You Need Cancel?";
+orderCancelPayTitle = "Cancel";
+orderPayTitle = "Pay";
+
+orderTitle = "Order";
+orderStateNormalTitle = "Normal";
+orderStateInvalidTitle = "Invalid";
+orderStatePayDoneTitle = "Paid";
+orderStateBackingTitle = "Refunding";
+orderStateBackDoneTitle = "Refund";
+orderStateExpireTitle = "Expire";
+orderStateCancelTitle = "Cancel";
+
+depositTitle = "Deposit";
+
+startTimeTitle = "Start";
+endTimeTitle = "End";
+
