@@ -43,6 +43,11 @@
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
 
     
+    /** 设置返回手势*/
+    [self respondsToSelector:@selector(interactivePopGestureRecognizer)];
+    self.interactivePopGestureRecognizer.delegate = nil;
+
+    
     /** 设置背景颜色*/
     self.navigationBar.barTintColor = JColorNavDefault;
 
@@ -53,7 +58,7 @@
         /** 隐藏底部tabBar*/
         viewController.hidesBottomBarWhenPushed = YES;
         /** 隐藏导航栏，用自定义的导航视图*/
-        self.navigationBarHidden = YES;
+        self.navigationBar.hidden = YES;
     }
     /** 设置背景色，防止push出白线*/
     viewController.view.backgroundColor = [UIColor whiteColor];
@@ -66,10 +71,11 @@
 
     if (self.viewControllers.count == 2) {//当前要PUSH到首页子视图控制器
         /** 首页不隐藏导航*/
-        self.navigationBarHidden = NO;
+        self.navigationBar.hidden = NO;
     }
     
     return [super popViewControllerAnimated:animated];
 }
+
 
 @end
