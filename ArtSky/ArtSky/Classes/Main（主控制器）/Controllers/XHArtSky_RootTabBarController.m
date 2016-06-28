@@ -73,7 +73,7 @@
     
     /** 设置字体与颜色*/
     [ctrl.tabBarItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Light" size:11],NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateNormal];
-    [ctrl.tabBarItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Light" size:11],NSForegroundColorAttributeName:[UIColor blackColor]} forState:UIControlStateSelected];
+    [ctrl.tabBarItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Light" size:11],NSForegroundColorAttributeName:JColorNavDefault} forState:UIControlStateSelected];
     
 
 }
